@@ -17,6 +17,7 @@ export const Container = styled.div`
     border-radius: 8px;
     margin-right: 20px;
     width: 50vw;
+    color: hsl(257, 7%, 63%);
   }
 
   button {
@@ -25,5 +26,9 @@ export const Container = styled.div`
     border-radius: 8px;
     background: hsl(180, 66%, 49%);
     color: #fff;
+    cursor: pointer;
+  }
+  button:hover {
+    opacity: 0.8;
   }
 `;

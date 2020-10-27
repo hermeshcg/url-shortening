@@ -16,6 +16,10 @@ export const Container = styled.div`
     cursor: not-allowed;
   }
 
+  a:hover {
+    color: hsl(260, 8%, 14%);
+  }
+
   .a {
     display: flex;
     align-items: center;
