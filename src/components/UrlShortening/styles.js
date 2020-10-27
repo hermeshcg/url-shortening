@@ -7,10 +7,10 @@ export const Container = styled.div`
 
   background: hsl(257, 27%, 26%);
   width: 70vw;
-  height: 50px;
+  height: 100px;
   margin-left: 200px;
   margin-right: 200px;
-  border-radius: 80px;
+  border-radius: 4px;
 
   input {
     border: 1px solid #ccc;
