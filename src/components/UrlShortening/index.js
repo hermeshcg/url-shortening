@@ -2,20 +2,20 @@ import React, { useState } from 'react';
 
 import { Container } from './styles';
 
-import api from '../../services/api';
-
 function UrlShortening() {
   const [link, setLink] = useState('');
-
-  async function handleShortLink(event) {
+  /*   const [shortedLink, setshortedLink] = useState('');
+  
+    async function handleShortLink(event) {
     event.preventDefault();
-    const response = await api.post('/v4/shorten', { long_url: link });
-    console.log(response.data);
+    const response = await api.post('/api/v1/shorten', link);
+    const data = response.data;
+    setshortedLink(data);
   }
-
+  console.log(shortedLink); */
   return (
     <Container>
-      <form onSubmit={handleShortLink}>
+      <form onSubmit={() => {}}>
         <input
           onChange={(e) => setLink(e.target.value)}
           type="text"
