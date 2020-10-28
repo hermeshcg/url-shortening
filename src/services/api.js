@@ -1,8 +1,7 @@
-/* import axios from 'axios';
+import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://cleanuri.com/',
+  baseURL: 'http://localhost:3102',
 });
 
 export default api;
- */
