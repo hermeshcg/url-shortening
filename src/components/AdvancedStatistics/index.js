@@ -18,7 +18,7 @@ function AdvancedStatistics() {
       </p>
       <section>
         {stats.map((stat) => (
-          <div className="window">
+          <div key={stat.title} className="window">
             <div className="window-icon-container ">
               <img src={stat.img} alt="" />
             </div>
