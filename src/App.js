@@ -6,6 +6,8 @@ import Header from './components/Header';
 import GetStarted from './components/GetStarted';
 import UrlShortening from './components/UrlShortening';
 import AdvancedStatistics from './components/AdvancedStatistics';
+import Boost from './components/Boost';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <GetStarted />
       <UrlShortening />
       <AdvancedStatistics />
+      <Boost />
+      <Footer />
       <GlobalStyle />
     </>
   );
