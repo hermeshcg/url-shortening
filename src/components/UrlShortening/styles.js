@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   background: hsl(257, 27%, 26%);
   width: 70vw;
-  height: 100px;
+  height: 110px;
   margin-left: 200px;
   margin-right: 200px;
   border-radius: 4px;
